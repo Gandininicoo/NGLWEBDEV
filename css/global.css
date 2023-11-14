@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: Oswald, sans-serif;
+    scroll-behavior: smooth;
 }
 
 .wellcome{
@@ -415,14 +416,14 @@
 }
 .halfEs{
     background-color: #051120;
-    color: #14365f;
+    color: #2979AC;
     border-right: 2px solid #071e3d;
     animation: imgappear ease-in .7s;
     opacity: 75%;
 }
 .halfEn{
     background-color: #051120;
-    color: #14365f;
+    color: #2979AC;
     border-left: 2px solid #071e3d;
     animation: imgappear ease-in .7s;
     opacity: 75%;
