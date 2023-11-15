@@ -320,9 +320,43 @@
 .contact{
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     padding-top: 50px;
     width: 100%;
     background-color: #020A20;
+}
+.contactParagraph{
+    align-self: center;
+    font-size: 2rem;
+    text-wrap: wrap;
+    color: #e6e6e6;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contactLinkBox{
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+}
+.contactLinkBox a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #e6e6e6;
+    font-size: 2rem;
+    margin: 20px;
+    transition: ease-in .15s;
+}
+.contactLinkBox a:hover{
+    color: #3ebcf9;
+}
+.contactLinkBox a svg{
+    height: 30px;
+    aspect-ratio: 1/1;
+    margin-right: 10px;
 }
 @media all and (max-width: 1080px){
     .personal-data-bottom{
