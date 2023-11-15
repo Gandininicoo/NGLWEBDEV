@@ -610,6 +610,20 @@
         background-blend-mode: unset;
     }
 }
+@media all and (max-width: 500px){
+    .contactLinkBox{
+        width: 90%;
+    }
+    .contactParagraph{
+        font-size: 1.4rem;
+    }
+    .contactLinkBox a{
+        font-size: 1.2rem;
+    }
+    .contactLinkBox a svg{
+        height: 16px;
+    }
+}
 @media all and (max-width: 400px){
     .project{
         width: 80%;
