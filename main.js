@@ -18,3 +18,11 @@ function onMouseRemove(event){
     let barraRemove = projectsremove.querySelector('.barraProjectos')
     barraRemove.classList.remove("barraProjectosDespelgada")
 }
+
+
+
+
+let name = "Nico"
+function sayHello(name){
+  console.log(`Hi, my name is ${name}`)
+}
