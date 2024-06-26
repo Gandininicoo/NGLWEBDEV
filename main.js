@@ -26,3 +26,4 @@ let name = "Nico"
 function sayHello(name){
   console.log(`Hi, my name is ${name}`)
 }
+
